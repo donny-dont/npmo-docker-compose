@@ -1,0 +1,7 @@
+[template]
+src = "npm.ini.tmpl"
+dest = "/usr/local/etc/couchdb/local.d/npm.ini"
+keys = [
+  "/couchdb/user",
+  "/couchdb/password",
+]
